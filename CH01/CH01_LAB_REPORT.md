@@ -4,8 +4,6 @@
 
 ## Test Results
 
-*Paste your printed step counts and describe what your growth chart shows.*
-
 ```
 9
 10
@@ -49,11 +47,9 @@ As list size increases from 10 to 1,000,000, binary search's step count only gre
 ## Reflection Questions
 
 1. **Explain binary search to someone who has never programmed.**
-   - *The book uses looking up a name in a phone book. Say what corresponds to what.*
    - *Imagine you are looking up a name in a phone book. Instead of starting from page one and checking every name, you open to the middle of the phone book and check if your name comes before or after that point. You then repeat this process, discarding the other half every time, until you find your name. This process is must more efficient then searching from the very first page.*
 
 2. **Doubling the list adds only one step to binary search. Why does that happen?**
-   - *Answer from what your code does each guess, not from a formula.*
    - *Fundamentally, binary search essentially cuts the remaining list in half with every guess, therefore, the number of steps needed ultimately depends on how many times you must divide the list size by two before finding your result. Which means doubling the list means halving the list one more time.*
 
 3. **Where does binary search show up in real software?**
