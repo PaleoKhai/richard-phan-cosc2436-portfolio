@@ -50,7 +50,7 @@ As list size increases from 10 to 1,000,000, binary search's step count only gre
 
 1. **Explain binary search to someone who has never programmed.**
    - *The book uses looking up a name in a phone book. Say what corresponds to what.*
-   - *Imagine you are looking up a name in a phone book. Instead of starting from parge one and checking every name, you open to the middle of the phone book and check if your name comes before or after that point. You then repeat this process, discarding the other half every time, until you find your name. This process is must more efficient then searching from the very first page.*
+   - *Imagine you are looking up a name in a phone book. Instead of starting from page one and checking every name, you open to the middle of the phone book and check if your name comes before or after that point. You then repeat this process, discarding the other half every time, until you find your name. This process is must more efficient then searching from the very first page.*
 
 2. **Doubling the list adds only one step to binary search. Why does that happen?**
    - *Answer from what your code does each guess, not from a formula.*
