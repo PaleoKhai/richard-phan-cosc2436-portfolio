@@ -47,10 +47,10 @@ As list size increases from 10 to 1,000,000, binary search's step count only gre
 ## Reflection Questions
 
 1. **Explain binary search to someone who has never programmed.**
-   - *Imagine you are looking up a name in a phone book. Instead of starting from page one and checking every name, you open to the middle of the phone book and check if your name comes before or after that point. You then repeat this process, discarding the other half every time, until you find your name. This process is must more efficient then searching from the very first page.*
+   - Imagine you are looking up a name in a phone book. Instead of starting from page one and checking every name, you open to the middle of the phone book and check if your name comes before or after that point. You then repeat this process, discarding the other half every time, until you find your name. This process is must more efficient then searching from the very first page.
 
 2. **Doubling the list adds only one step to binary search. Why does that happen?**
-   - *Fundamentally, binary search essentially cuts the remaining list in half with every guess, therefore, the number of steps needed ultimately depends on how many times you must divide the list size by two before finding your result. Which means doubling the list means halving the list one more time.*
+   - Fundamentally, binary search essentially cuts the remaining list in half with every guess, therefore, the number of steps needed ultimately depends on how many times you must divide the list size by two before finding your result. Which means doubling the list means halving the list one more time.
 
 3. **Where does binary search show up in real software?**
-   - *Binary search is a very commonly used searching method. It can be used anywhere that has large amounts of sorted data that needs to be searched quickly. For example, searching for a word in a dictionary app or finding a song title in a song index.*
+   - Binary search is a very commonly used searching method. It can be used anywhere that has large amounts of sorted data that needs to be searched quickly. For example, searching for a word in a dictionary app or finding a song title in a song index.
